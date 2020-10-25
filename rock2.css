@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: azure;
+}
+.description p{
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-style: oblique;
+    padding: 2rem;
+    background-color: aqua;
+}
+.scoreboard{
+    position: relative;
+    align-items: center;
+    border: 2px solid red;
+    padding: 3rem;
+    width: 20%;
+    margin-left: 30rem;
+    border-radius: 5px;
+}
+.badges{
+    display: flex;
+}
+.user{
+    position: absolute;
+    background-color: red;
+    left: -1rem;
+}
+.computer{
+    position: absolute;
+    background-color: red;
+    right: -1.2rem;
+}
+#scores{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: space-around;
+}
+.highlight{
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 30px;
+    color: tomato;
+    font-family: 'Courier New', Courier, monospace;
+}
+#r :hover{
+    cursor: pointer;
+    background-color: royalblue;
+    transition: all .5s ease-in-out
+}
+#p :hover{
+    cursor: pointer;
+    background-color: royalblue;
+    transition: all .5s ease-in-out
+}
+#s :hover{
+    cursor: pointer;
+    background-color: royalblue;
+    transition: all .5s ease-in-out
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
+#r img{
+    border-radius: 50%;
+    border: 5px solid green;
+    padding: 5px;
+    margin: 1rem;
+}
+#p img{
+    border-radius: 50%;
+    border: 5px solid green;
+    padding: 5px;
+    margin: 1rem;
+}
+#s img{
+    border-radius: 50%;
+    border: 5px solid green;
+    padding: 5px;
+    margin: 1rem;
+}
+.begin{
+    text-align: center;
+    margin: .5rem;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: forestgreen;
+    text-transform: uppercase;
+}
+.goodbye{
+    text-align: center;
+    margin-top: 1rem;
+    color: black;
+    font-weight: bold;
+}
